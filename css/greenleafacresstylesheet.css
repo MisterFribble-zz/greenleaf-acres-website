@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  border: 1px solid ;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40px;
+  background-color: transparent;
+}
+
+.menu-bar .menu-item {
+  width: 25%;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+}
+
+.menu-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: -web;
+}
+
+.menu-bar .menu-item a {
+  text-decoration: none;
+  position: relative;
+  top: 12px;
+  font-size: 16px;
+}
+
+.menu-bar .menu-item .sub-menu {
+  width: 100%;
+  visibility: hidden;
+  height: 200px;
+  top: 100%;
+  display: block;
+}
+
+.sub-menu-item {
+  width: 25%;
+  
+}
