@@ -41,7 +41,7 @@ body {
 }
 
 .menu-item:hover {
-  transition: background-color linear 0.25s;
+  transition: background-color 0.25s ease-in ease-out;
   background-color: #1A751E;
 }
 
