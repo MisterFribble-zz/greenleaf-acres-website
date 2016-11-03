@@ -32,7 +32,7 @@ body {
   background: -webkit-linear-gradient(#164200, #0B2100);
 }
 
-.menu-bar .menu-item a {
+.menu-bar .menu-item span {
   text-decoration: none;
   position: relative;
   top: 12.5px;
@@ -41,7 +41,7 @@ body {
 }
 
 .menu-item:hover {
-  transition: background-color 0.25s ease-in ease-out;
+  transition: background-color linear 0.25s;
   background-color: #1A751E;
 }
 
