@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background
+  background: url("img/BackgroundImage"), cover;
 }
 .title {
   font-family: 'Oswald', sans-serif;
