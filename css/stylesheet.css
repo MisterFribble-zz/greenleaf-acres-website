@@ -1,9 +1,13 @@
 body {
   font-family: Roboto, sans-serif;
+}
+
+#cover {
   background: url("../img/BackgroundImage") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
+
 .title {
   font-family: 'Oswald', sans-serif;
   text-align: center;
